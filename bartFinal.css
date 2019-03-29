@@ -1,0 +1,175 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#bigWrap {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Verdana";
+}
+
+#totalsWrap {
+    display: grid;
+    grid: 100px / auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+
+#roundNumberCard {
+    display: inline;
+    float: left;
+    clear: left;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #72B5E8;
+    margin-right: 15%;
+}
+
+.space {
+    width: 30%;
+    float: left;
+    clear: left;
+}
+
+#totalPointsCard {
+    margin-left: 15%;
+    display: inline;
+    vertical-align: middle;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #72B5E8;
+}
+
+#pointsWrap {
+    display: grid;
+    grid: 125px / auto auto auto;
+    grid-gap: 10px;
+    color: white;
+}
+
+#pointsThisRoundCard {
+    border: 2px solid black;
+    border-radius: 55px;
+    margin: 10px;
+    height: 60%;
+    background: #72B5E8;
+    color: black;
+}
+
+#balloonWrapLimit {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#balloonWrap {
+  display: block;
+  margin: auto;
+}
+
+#balloon {
+  margin: auto;
+  width: 100px;
+  height: 180px;
+}
+
+#airpumpWrap {
+  display: block;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+#airpump {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
+#buttonsWrap {
+    display: grid;
+    grid: 50px / auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: center;
+    font-weight: normal;
+    box-shadow: 0 5px #27496d;
+    text-align: center;
+    text-decoration: none;
+    background: #B22222;
+}
+
+.buttons:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.buttons:active {
+    background-color: #417cb8;
+    box-shadow: 0 .5px #27496d;
+    text-transform: translateY(0.5);
+    text-decoration: none;
+}
+
+#pumpButton {
+    border: 5px solid gray;
+    border-radius: 8px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    border-style: outset;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-right: 25%;
+    color: #FFFFFF;
+}
+
+#saveButton {
+    margin-left: 25%;
+    float: right;
+    clear: right;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 8px;
+    border-style: outset;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#nextRoundButton {
+    border: 5px solid gray;
+    border-radius: 8px;
+    border-style: outset;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #FFFFFF;
+}
